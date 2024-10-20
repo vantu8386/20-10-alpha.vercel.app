@@ -11,8 +11,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" -->
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title></title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap');
@@ -25,11 +23,11 @@
             box-sizing: border-box;
         }
 
-        body {
+        /* body {
             background-image: url(bgr3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-        }
+        } */
 
         .container {
             width: 100%;
@@ -327,6 +325,25 @@
             font-family: 'Dancing Script', cursive;
             font-size: 1.3em;
         }
+
+        @media (max-width: 768px) {
+
+            .box-mail {
+                /* position: relative;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center; */
+                padding-top: 100%;
+            }
+
+            h1, h2 {
+                color: red;
+                font-size: 24px !important;
+            }
+
+
+        }
     </style>
 </head>
 
@@ -335,13 +352,13 @@
         <div class="toast">
             <div class="toast-container">
                 <div class="text1">
-                    <h1>Nhân dịp ngày 20/10 <3</h1>
+                    <h1>Nhân dịp ngày 20/10 ❤❤ </h1>
                 </div>
                 <div class="text2">
-                    <h2>❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤</h2>
+                    <h2>❤❤❤❤❤❤❤❤❤❤</h2>
                 </div>
                 <div class="btn">
-                    <button class="button--yes" id="yes">Nhận luôn<33</button>
+                    <button class="button--yes" id="yes">Nhận luôn ❤❤ </button>
                             <button class="button--no" id="no">không thèm</button>
                 </div>
             </div>
@@ -350,16 +367,17 @@
     <div class="box-mail">
         <div class="mail">
             <h1 style="text-align: center;">
-                <i class="fa-solid fa-heart"></i>
-                Gửi đến Nguyễn Thị Quỳnh
-                <i class="fa-solid fa-heart"></i>
+                
+                Gửi đến <br>❤Nguyễn Thị Quỳnh❤
+                
             </h1>
             <p>Nhân ngày Phụ nữ Việt Nam, xin gửi những lời chúc đến người tôi yêu những lời chúc ngọt ngào nhất trong
                 ngày đặc biệt này. Chúc em một ngày 20/10 tràn ngập yêu thương! Mỗi ngày bên em là một món quà, và anh
                 mong rằng em sẽ luôn cảm nhận được sự yêu thương và trân trọng từ anh. Em là lý do anh mỉm cười!</p>
+            <br>
 
-            <p>❤❤Kí tên❤❤</p>
-            <p>Nguyễn Văn Tú</p>
+            <p style="color: red;">❤❤Kí tên❤❤</p>
+            <p style="color: red;">Nguyễn Văn Tú</p>
         </div>
     </div>
     <script src="app.js"></script>
